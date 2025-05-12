@@ -1,0 +1,74 @@
+/* Selector by element */
+
+body {
+    font-family: Nunito;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+button:hover {
+    box-shadow: inset 1px 1px 10px 1px rgb(205, 203, 203);
+}
+
+
+.outerContainer {
+    padding: 3em;
+    margin: 10% 40% auto 40%;
+    display: flex;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px 1px rgb(205, 203, 203);
+
+}
+
+/* Selector by class */
+.innerContainer {
+    display: flex;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+
+}
+
+
+
+.albumCover {
+    border-radius: 20px;
+    height: 60%;
+    width: 100%;
+    box-shadow: 1px 1px 20px 1px rgb(205, 203, 203);
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.musicControls {
+    display: flex;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    row-gap: 50px;
+    justify-content: space-between;
+
+}
+
+.material-symbols-outlined {
+    font-size: xx-large;
+}
+
+
+
+/* Selector by id */
+#songTitle {
+    font-size: large;
+    font-weight: 700;
+}
+
+#playBtn {
+    border-radius: 60%;
+    size: 500px;
+    font-size: 240%;
+}
